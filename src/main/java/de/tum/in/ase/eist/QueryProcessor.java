@@ -15,7 +15,7 @@ public class QueryProcessor {
             return "kagan";
         } else if (query.contains("plus")) {
             query = query.replaceAll(" +", "plus");
-            return query + "plus";
+            return "plus";
 
         } else { // TODO extend the programm here
             return "";
